@@ -1,4 +1,4 @@
-**Simple Model of Estimated Occupational Resilence**
+**Simple Model of Estimated Occupational Resilence (Example for Class)**
 
 The analysis began by integrating new 2024–2034 BLS Employment Projections to update critical wage and employment data, prioritizing these figures over legacy sources and resolving merging conflicts through standardized cleaning. Following data integration, the study performed feature engineering to construct a "Demand_Index" based on projected growth and isolated 17 distinct skill categories as independent variables, explicitly excluding direct automation proxies to prevent data leakage. Four machine learning models—Logistic Regression, Decision Tree, Random Forest, and Neural Network—were then trained to predict "High Risk" occupations based solely on these skill and demand profiles. The process concluded by evaluating model performance with metrics like AUC, interpreting feature importance through coefficients and decision rules, and generating storytelling visualizations such as the "Rank Mobility Slopegraph" to illustrate how economic demand buffers against technological risk.
 
